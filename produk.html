@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <a href="#" onclick="history.go(-1); return false;"><i class="fas fa-arrow-left"></i> <--</a>
+
+    <meta charset="UTF-8">
+    <link type="x.icon" href="ss.jpg.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Store id</title>
+    <style>
+        .container {
+    display: flex;
+    align-items: center; /* Untuk menengahkan item secara vertikal */
+}
+
+.logo {
+    margin-right: 20px; /* Memberi jarak antara logo dan teks */
+}
+
+.store-info {
+    flex: 1; /* Mengatur agar bagian informasi toko memenuhi sisa ruang yang tersedia */
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #66809e;
+            color: #ffffff;
+            text-align: center;
+            padding: 5px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .products {
+            background-color: #f9f9f9;
+            padding: 20px 0;
+            display: -ms-flexbox;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10000px #0000001a;
+            margin-bottom: 20px;
+            width: 3%; /* Menentukan lebar tiap produk */
+            min-width: 250px; /* Lebar minimum untuk produk */
+            margin-right: 2px; /* Jarak antar produk */
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h2 {
+            margin-top: 10px;
+            color: #000000;
+        }
+
+        footer {
+            background-color: #333;
+            color: #ebebeb;
+            text-align: center;
+            padding: 7px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <div class="container">
+            <div class="logo">
+                <img src="ss.jpg.png" alt="Logo Second Store">
+            </div>
+
+        <div class="container">
+            <h1>SECOND STORE</h1>
+            <p>Toko HP Second Berkualitas di Ciracas, Kota Serang, Banten</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="beranda.html">Beranda</a>
+        <a href="tentangkami.html">Tentang Kami</a>
+        <a href="produk.html">Produk</a>
+        <a href="lok.html">Lokasi</a>
+        <a href="kontak.html">Kontak</a>
+        <!-- Add more menu items here -->
+    </nav>
+    
+    <section class="products">
+        <div class="container">
+            <a href="zfold5.html">
+            <div class="product">
+                <img src="fold5.jpg" alt="samsung">
+                <h2>Samsung Galaxy Z Fold 5</h2>
+                <p>Harga: Rp. 19.100.000</p>
+            </div>
+            </a>
+            
+            <a href="hot9play.html">
+            <div class="product">
+                <img src="hot9.jpg" alt="Infinix">
+                <h2>Infinix Hot 9 play</h2>
+                <p>Harga: Rp. 1.100.000</p>
+            </div>
+            </a>
+
+            <a href="a55.html">
+            <div class="product">
+                <img src="a55.jpg" alt="samsung">
+                <h2>samsung Galaxy A55 </h2>
+                <p>Harga: Rp. 1.100.000</p>
+            </div>
+            </a>
+
+            <a href="xr.html">
+            <div class="product">
+                <img src="xr2.jpg" alt="iphone">
+                <h2>Iphone Xr  </h2>
+                <p>Harga: Rp. 4.100.000</p>
+            </div>
+            </a>
+            <!-- Tambahkan produk lainnya sesuai kebutuhan -->
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Second.Store - Toko HP di Ciracas, Kota Serang, Banten</p>
+            <h1>Jl. Lingkar Selatan No.83, Serang, Kec. Serang, Kota Serang, Banten 42116</h1>
+        </div>
+    </footer>
+</body>
+</html>
